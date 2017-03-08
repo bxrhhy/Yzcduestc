@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>约战科成</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    	
+    	
+    	#container{
+    		
+    		height: 100%;
+    		
+    		margin-top:70px;
+    	}
+    	
+    	#summary_right{
+    		
+    		border: 3px solid #DDDDDD;
+    		margin: 0 10px;
+    		width: 250px;
+    	}
+    	h3{
+    		color: #31B0D5;
+    		font-family: "微软雅黑";
+    	}
+    	#summary_right li{
+    		list-style: none;
+    		
+    		margin-bottom: 5px;
+    	}
+    	#summary_right li a{
+    		text-decoration: none;
+    		font-family: "微软雅黑";
+			font-size: 18px;
+			line-height: 70px;
+			color: #000000;
+			
+    	}
+    	#summary_right li img{
+    		margin-top:20px;
+    		height: 70px;
+    	}
+    	
+    	#summary_left img{
+    		width: 100%;
+    		height: 250px;
+    	}
+    	h2{
+    		color: #31B0D5;
+    		font-family: "微软雅黑";
+    		font-size: 20px;
+    		margin: 10px auto;
+    	}
+    	#summary_left{
+    		margin-left: 20px;
+    		height: 100%;
+    	}
+    	#summary_left a{
+    		text-decoration: none;
+    		line-height: 0px;
+    	}
+    	#man{
+    		margin-bottom: 20px;
+    	}
+    	footer{
+    		height: 170px;
+    		
+    	}
+    	#lb{
+    		
+    		height: 500px;
+    		
+    	}
+    	.item{
+    		height: 500px;
+    	}
+    	.item img{
+    		width: 100%;
+    	}
+    	@media (max-width:1060px ) {
+    		#lb{
+    		
+    		height: 300px;
+    		
+    	}
+    	.item{
+    		height: 300px;
+    	}
+    	}
+    	
+    </style>
+	</head>
+	
+	<body>
+		<!--导航-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+  				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+  					<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+  					
+  				</button>
+  				<div class="navbar-brand"><a href="#">YZCDUESTC</a></div>
+  			</div>
+			
+			<div class="collapse navbar-collapse" id="collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="">精彩十佳</a></li>
+					<li><a href="">BallFight</a></li>
+					<li><a href="">加入我们</a></li>
+				</ul>
+				
+			</div>
+			</div>
+  			
+		</nav>
+		<!--轮播-->
+		<div class="carousel slide" data-ride="carousel" id="lb">
+			<ol class="carousel-indicators">
+			    <li data-target="#lb" data-slide-to="0" class="active"></li>
+			    <li data-target="#lb" data-slide-to="1"></li>
+			    <li data-target="#lb" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/lb1.jpg" style="height:100%"/>
+				</div>
+				<div class="item">
+					<img src="img/lb2.jpg "style="height:100%"/>
+				</div>
+				<div class="item">
+					<img src="img/lb3.jpg "style="height:100%"/>
+				</div>
+			</div>
+			
+		</div>
+		<!--主要内容-->
+		<div class="container summary" id="container">
+			<div class="row">
+				<div id="summary">
+				<!--左侧-->
+			<div  class="col-md-8" id="summary_left">
+				<div id="man" class="row">
+					<h2>Week1集锦</h2>
+					<div class="col-md-6 col-xs-6">
+						<a href="" ><img src="img/v3.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+					<div class="col-md-6 col-xs-6">
+						<a href="" ><img src="img/v2.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+				</div>
+				
+				<div id="man" class="row">
+					<h2>Week2集锦</h2>
+					<div class="col-md-6 col-xs-6">
+						<a href="" ><img src="img/v4.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+					<div class="col-md-6 col-xs-6">
+						<a href="" ><img src="img/v5.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+				</div>
+				
+				<div id="man" class="row">
+					<h2>趣味赛集锦</h2>
+					<div class="col-md-6">
+						<a href="" ><img src="img/v6.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+					<div class="col-md-6">
+						<a href="" ><img src="img/v7.jpg"/ >「EMPIER LEAGUE」纪录片</a>
+					</div>
+				</div>
+			</div>
+				<!--右侧-->
+			<div class="col-md-3" id="summary_right">	
+					<h3>得分排行榜</h3>
+					<hr />
+					<li class="row">
+						<div class="col-md-5  col-xs-5">
+							<a href=""><img class="img-circle" src="img/mbl.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">马布里</a><p>得分：9652</p>
+							
+						</div>
+						
+					</li>
+					
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/gal.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">郭艾伦</a>
+							<h5>得分：8562</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/wzl.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">王哲林</a>
+							<h5>得分：8262</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/wzz.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">王治郅</a>
+							<h5>得分：7562</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/zq.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">周琦</a>
+							<h5>得分：6562</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/cf.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">曹芳</a>
+							<h5>得分：5162</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/wy.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">吴悠</a>
+							<h5>得分：4568</h5>
+						</div>
+						
+					</li>
+					<li class="row">
+						<div class="col-md-5 col-xs-5">
+							<a href=""><img class="img-circle" src="img/iso.jpg"/></a>
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<a href="">ISO</a>
+							<h5>得分：4562</h5>
+						</div>
+						
+					</li>
+					
+					
+					
+				
+			</div>
+				<!--底部-->
+				
+			</div>
+			</div>
+			<footer>
+				<h2>联系电话：548795-12</h2>
+	<a class="pull-right" href="#top">回到顶部</a>
+	<p>&copy; 2016 design by BallFight </p>
+</footer>
+		</div>
+		
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
